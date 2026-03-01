@@ -14,7 +14,7 @@ def deploy_to_huggingface_space():
 
     try:
         api = HfApi()
-        space_id = "abhishek-kumar/tourism_project"
+        space_id = "Prabhakar1985/tourism_project"
 
         files_to_upload = [
             ("app.py", "app.py"),
