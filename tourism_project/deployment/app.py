@@ -22,7 +22,7 @@ def load_model():
     """Load the trained model from HuggingFace Hub"""
     try:
         model_path = hf_hub_download(
-            repo_id="abhishek-kumar/tourism-package-prediction-model",
+            repo_id="Prabhakar1985/tourism-package-prediction-model",
             filename="best_model.joblib"
         )
         model = joblib.load(model_path)
