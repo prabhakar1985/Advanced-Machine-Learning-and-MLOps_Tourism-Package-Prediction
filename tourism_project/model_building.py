@@ -45,11 +45,11 @@ def load_train_test_data():
         print("📥 Loading train/test datasets from Hugging Face Hub...")
         
         # Load train dataset
-        train_dataset = load_dataset("abhishek-kumar/tourism-package-prediction-train", split="train")
+        train_dataset = load_dataset("Prabhakar1985/tourism-package-prediction-train", split="train")
         train_df = train_dataset.to_pandas()
         
         # Load test dataset
-        test_dataset = load_dataset("abhishek-kumar/tourism-package-prediction-test", split="train")
+        test_dataset = load_dataset("Prabhakar1985/tourism-package-prediction-test", split="train")
         test_df = test_dataset.to_pandas()
         
         print(f"✅ Train dataset loaded: {len(train_df)} samples")
